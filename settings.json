@@ -107,7 +107,7 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "FireFly Pro Bright",
   "workbench.editor.enablePreview": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
@@ -139,19 +139,20 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.organizeImports": false
+    "source.organizeImports": false,
+    "source.fixAll.eslint": true
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "eslint.validate": [
     "javascript",
@@ -174,5 +175,18 @@
   "bracketPairColorizer.depreciation-notice": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "vscode-edge-devtools.mirrorEdits": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "notion.key": "secret_yqMP1mBSECrJxOie9GBmYfL6uCaJUYWHvXAnCaP07Cr",
+  "[pascal]": {
+    "editor.defaultFormatter": "alefragnani.pascal-formatter"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  "window.menuBarVisibility": "compact",
   "window.zoomLevel": 1,
 }
